@@ -38,7 +38,11 @@ function Login() {
   });
   return (
     <div className="container">
-      <h1 className="text-danger">Book My Show</h1>
+      <h1 className="text-danger"><img
+                      src="../images/bookmyshow.jpg"
+                     
+                      alt="..."
+                    /></h1>
       <div className="col">
         <div className="row">
           <form onSubmit={formik.handleSubmit}>
